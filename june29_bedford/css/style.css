@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-image: url(../img/bed_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+}
+header nav {
+  display: flex;
+}
+header nav img {
+  width: auto;
+  height: 60px;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+nav h2 {
+  margin: 10px 30px;
+  font-size: 18px;
+  color: white;
+  margin-top: 50px;
+}
+nav h2 a {
+  text-decoration: none;
+  color: white;
+  transition: .5s all ease-in-out;
+}
+nav h2:nth-of-type(1) {
+  margin-left: 37%;
+}
+header nav h2:nth-of-type(5) {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 100px;
+  transition: .5s all ease-in-out;
+}
+header nav h2:nth-of-type(5):hover {
+  background-color: white;
+  color: black;
+}
+nav h2:nth-of-type(5):hover a {
+  color: black;
+}
+header h3 {
+  font-style: italic;
+  margin-top: 40px;
+  font-size: 24px;
+}
+header h1, header h3 {
+  text-align: center;
+  color: white;
+}
+header h1 {
+  margin-top: 50px;
+  font-size: 80px;
+}
+header div {
+  text-align: center;
+}
+header h5 {
+  display: inline-block;
+}
+header div a {
+  border-radius: 100px;
+  padding: 10px 40px;
+  background-color: #36B3A8;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+main {
+  background-color: #FFFFFF;
+}
+main h1, main p, main h6 {
+  text-align: center;
+}
+main p {
+  color: #616177;
+  width: 50%;
+  margin-left: 26%;
+}
+main h1 {
+  margin-top: 110px;
+  color: #363636;
+  margin-bottom: 50px;
+}
+main h6 {
+  color: #616177;
+  font-style: italic;
+}
+main a {
+  text-decoration: none;
+  color: #3D999B;
+}
